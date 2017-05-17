@@ -81,7 +81,7 @@ public class MarkovTextGeneratorGrader {
             feedback += "The word 'I' appears " + i + " times. ";
 
             gen.retrain("");
-            feedback += "\n** Test #9: Testing retrain()...";
+            feedback += "Test #9: Testing retrain()...";
             String s = gen.generateText(20);
             feedback += "Text generated: " + s + ". ";
 
